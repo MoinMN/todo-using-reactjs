@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+A To-Do List application built with React.js and styled using Tailwind CSS. This app allows users to manage their tasks with features like adding, updating, and deleting tasks. Tasks can be marked as completed or pending, and the user interface is responsive and visually appealing thanks to Tailwind CSS.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Add new tasks
+- Mark tasks as completed or pending
+- Delete tasks
+- Responsive design
+- Styled with Tailwind CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js**: A JavaScript library for building user interfaces
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs
+- **Local Storage**: For persisting tasks across page reloads
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Make sure you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (includes npm)
+- [Git](https://git-scm.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository:**
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/moinmn/todo-using-reactjs.git
+   cd todo-using-reactjs
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Install dependencies:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Start the development server:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+   Open your browser and navigate to `http://localhost:3000` to view the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Adding a Task
 
-### Code Splitting
+- Enter a task description in the input field and click the "Add Task" button or press `Enter`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Marking a Task as Completed
 
-### Analyzing the Bundle Size
+- Click the checkbox next to the task to mark it as completed. The task will be visually distinguished with a strikethrough and gray color.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Deleting a Task
 
-### Making a Progressive Web App
+- Click the trash icon next to the task to remove it from the list.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tailwind CSS Configuration
 
-### Advanced Configuration
+Tailwind CSS is set up using the default configuration. You can customize Tailwind's configuration in `tailwind.config.js` to fit your needs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Customizing Tailwind CSS
 
-### Deployment
+1. **Edit `tailwind.config.js`** to customize colors, spacing, and other design tokens.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. **Modify `src/index.css`** to include Tailwind’s utility classes and any custom styles.
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to fork the repository and submit pull requests for improvements. Ensure that your code adheres to the existing style and includes relevant tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
