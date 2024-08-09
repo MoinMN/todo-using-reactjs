@@ -56,6 +56,7 @@ function Todos() {
               id='input'
               className='w-full text-lg p-1 outline-none border-solid border-2 border-black rounded-lg' placeholder="Type here..."
               onChange={(e) => setNewTodo(e.target.value)}
+              onKeyDown={(evt)=>(evt.key === "Enter" && addTodo())}
             />
             <div className="btns flex justify-center items-center gap-2">
               <button className='w-24 bg-amber-100 p-1 text-lg rounded-md border-solid border-2 border-black' onClick={addTodo}>Add</button>
