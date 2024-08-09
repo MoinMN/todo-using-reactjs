@@ -1,8 +1,8 @@
-import Todos from './components/Todos.jsx'
+import Todo from './pages/Todo.jsx'
 
 function App() {
   return (
-    <Todos />
+    <Todo />
   );
 }
 
