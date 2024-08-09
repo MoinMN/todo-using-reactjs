@@ -78,11 +78,11 @@ Tailwind CSS is set up using the default configuration. You can customize Tailwi
 
 Feel free to fork the repository and submit pull requests for improvements. Ensure that your code adheres to the existing style and includes relevant tests.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+
+## GitHub Page
+
+- https://moinmn.github.io/todo-using-reactjs
